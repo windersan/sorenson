@@ -30,7 +30,7 @@ webpackEmptyAsyncContext.id = "./$$_lazy_route_resource lazy recursive";
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<app-toolbar></app-toolbar>\n\n<router-outlet></router-outlet>\n"
+module.exports = "<app-toolbar></app-toolbar>\n\n<app-boardroom></app-boardroom>\n<router-outlet></router-outlet>\n"
 
 /***/ }),
 
@@ -41,7 +41,7 @@ module.exports = "<app-toolbar></app-toolbar>\n\n<router-outlet></router-outlet>
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<mat-drawer-container>\n  <mat-drawer #nav>\n    <mat-card color=\"primary\" class=\"boardroom\">\n      <mat-card-content>\n        <button mat-button>\n          <mat-icon>account_box</mat-icon> &nbsp; Your Profile\n        </button>\n        <br />\n        <button mat-button>\n          <mat-icon>gamepad</mat-icon> &nbsp; Your Boardroom</button\n        ><br />\n        <button mat-button>\n          <mat-icon>settings</mat-icon> &nbsp; Settings\n        </button>\n      </mat-card-content>\n    </mat-card>\n  </mat-drawer>\n  <mat-drawer-content>\n    <mat-card color=\"accent\" class=\"boardroom\">\n      <mat-card-header>\n        <button type=\"button \" mat-button (click)=\"nav.toggle()\">\n          <mat-icon class=\"icon \">menu</mat-icon>\n        </button>\n        <mat-card-title>BOARDROOM</mat-card-title>\n\n        <mat-card-subtitle>Your challenge this week</mat-card-subtitle>\n      </mat-card-header>\n      <mat-divider></mat-divider>\n      <mat-card-content>\n        <button mat-button>\n          <mat-icon>play_circle_filled</mat-icon> &nbsp; Intro\n        </button>\n        <br />\n        <button mat-button>\n          <mat-icon>library_books</mat-icon> &nbsp; Your objectives</button\n        ><br />\n        <button mat-button>\n          <mat-icon>contact_mail</mat-icon> &nbsp; Your buddy\n        </button>\n      </mat-card-content>\n    </mat-card>\n  </mat-drawer-content>\n</mat-drawer-container>\n"
+module.exports = "<mat-card>\n  <mat-card-header>\n    <mat-card-title><h1>Laguz Health Record</h1></mat-card-title>\n    <mat-card-subtitle></mat-card-subtitle\n  ></mat-card-header>\n  <mat-card-content\n    ><h2>\n      Technology should enhance your life, not make it more difficult. Laguz is\n      easy to use, so you can spend more time with your patients and less time\n      with your medical record software.\n    </h2>\n  </mat-card-content>\n  <mat-card-footer>Contact: info@sorensonsoftworks.com</mat-card-footer>\n  <img\n    mat-card-image\n    src=\"https://pixabay.com/get/57e4d744484faa0df7c5c10398766263143ad9ed5b53704c7d29/science-14272_640.jpg\"\n  />\n</mat-card>\n\n<!-- <mat-drawer-container>\n  <mat-drawer #nav>\n    <mat-card color=\"primary\" class=\"boardroom\">\n      <mat-card-content>\n        <button mat-button>\n          <mat-icon>account_box</mat-icon> &nbsp; Your Profile\n        </button>\n        <br />\n        <button mat-button>\n          <mat-icon>gamepad</mat-icon> &nbsp; Your Boardroom</button\n        ><br />\n        <button mat-button>\n          <mat-icon>settings</mat-icon> &nbsp; Settings\n        </button>\n      </mat-card-content>\n    </mat-card>\n  </mat-drawer>\n  <mat-drawer-content>\n    <mat-card color=\"accent\" class=\"boardroom\">\n      <mat-card-header>\n        <button type=\"button \" mat-button (click)=\"nav.toggle()\">\n          <mat-icon class=\"icon \">menu</mat-icon>\n        </button>\n        <mat-card-title>BOARDROOM</mat-card-title>\n\n        <mat-card-subtitle>Your challenge this week</mat-card-subtitle>\n      </mat-card-header>\n      <mat-divider></mat-divider>\n      <mat-card-content>\n        <button mat-button>\n          <mat-icon>play_circle_filled</mat-icon> &nbsp; Intro\n        </button>\n        <br />\n        <button mat-button>\n          <mat-icon>library_books</mat-icon> &nbsp; Your objectives</button\n        ><br />\n        <button mat-button>\n          <mat-icon>contact_mail</mat-icon> &nbsp; Your buddy\n        </button>\n      </mat-card-content>\n    </mat-card>\n  </mat-drawer-content>\n</mat-drawer-container> -->\n"
 
 /***/ }),
 
@@ -107,7 +107,7 @@ var AppRoutingModule = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2FwcC5jb21wb25lbnQuc2NzcyJ9 */"
+module.exports = "app-boardroom {\n  height: 80%;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvQzpcXFVzZXJzXFxkZXZpblxcRGVza3RvcFxcQU5HVUxBUlxcUkVTUVxcbmdcXHJlc3FcXHJlc3Evc3JjXFxhcHBcXGFwcC5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvYXBwLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsV0FBQTtBQ0NGIiwiZmlsZSI6InNyYy9hcHAvYXBwLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiYXBwLWJvYXJkcm9vbSB7XHJcbiAgaGVpZ2h0OiA4MCU7XHJcbn1cclxuIiwiYXBwLWJvYXJkcm9vbSB7XG4gIGhlaWdodDogODAlO1xufSJdfQ== */"
 
 /***/ }),
 
@@ -127,7 +127,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var AppComponent = /** @class */ (function () {
     function AppComponent() {
-        this.title = 'resq';
+        this.title = 'Sorenson Softworks';
     }
     AppComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
@@ -218,7 +218,7 @@ var AppModule = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "mat-drawer-container {\n  width: 100%;\n}\n\nmat-drawer {\n  width: 70%;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYm9hcmRyb29tL0M6XFxVc2Vyc1xcZGV2aW5cXERlc2t0b3BcXEFOR1VMQVJcXFJFU1FcXG5nXFxyZXNxXFxyZXNxL3NyY1xcYXBwXFxib2FyZHJvb21cXGJvYXJkcm9vbS5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvYm9hcmRyb29tL2JvYXJkcm9vbS5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLFdBQUE7QUNDRjs7QURFQTtFQUNFLFVBQUE7QUNDRiIsImZpbGUiOiJzcmMvYXBwL2JvYXJkcm9vbS9ib2FyZHJvb20uY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJtYXQtZHJhd2VyLWNvbnRhaW5lciB7XHJcbiAgd2lkdGg6IDEwMCU7XHJcbn1cclxuXHJcbm1hdC1kcmF3ZXIge1xyXG4gIHdpZHRoOiA3MCU7XHJcbn1cclxuXHJcbm1hdC1jYXJkIHtcclxuICAvL3dpZHRoOiAxMDAlO1xyXG59XHJcbi5ib2FyZHJvb20ge1xyXG4gIC8vZGlzcGxheTogaW5saW5lLWJsb2NrO1xyXG59XHJcblxyXG4ubWVudSB7XHJcbiAgLy8gZmxvYXQ6IHJpZ2h0O1xyXG59XHJcbiIsIm1hdC1kcmF3ZXItY29udGFpbmVyIHtcbiAgd2lkdGg6IDEwMCU7XG59XG5cbm1hdC1kcmF3ZXIge1xuICB3aWR0aDogNzAlO1xufSJdfQ== */"
+module.exports = "mat-drawer-container {\n  width: 100%;\n}\n\nmat-drawer {\n  width: 70%;\n}\n\nmat-card {\n  font-size: large;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYm9hcmRyb29tL0M6XFxVc2Vyc1xcZGV2aW5cXERlc2t0b3BcXEFOR1VMQVJcXFJFU1FcXG5nXFxyZXNxXFxyZXNxL3NyY1xcYXBwXFxib2FyZHJvb21cXGJvYXJkcm9vbS5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvYm9hcmRyb29tL2JvYXJkcm9vbS5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLFdBQUE7QUNDRjs7QURFQTtFQUNFLFVBQUE7QUNDRjs7QURVQTtFQUNFLGdCQUFBO0FDUEYiLCJmaWxlIjoic3JjL2FwcC9ib2FyZHJvb20vYm9hcmRyb29tLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsibWF0LWRyYXdlci1jb250YWluZXIge1xyXG4gIHdpZHRoOiAxMDAlO1xyXG59XHJcblxyXG5tYXQtZHJhd2VyIHtcclxuICB3aWR0aDogNzAlO1xyXG59XHJcblxyXG4uYm9hcmRyb29tIHtcclxuICAvL2Rpc3BsYXk6IGlubGluZS1ibG9jaztcclxufVxyXG5cclxuLm1lbnUge1xyXG4gIC8vIGZsb2F0OiByaWdodDtcclxufVxyXG5cclxubWF0LWNhcmQge1xyXG4gIGZvbnQtc2l6ZTogbGFyZ2U7XHJcbn1cclxuIiwibWF0LWRyYXdlci1jb250YWluZXIge1xuICB3aWR0aDogMTAwJTtcbn1cblxubWF0LWRyYXdlciB7XG4gIHdpZHRoOiA3MCU7XG59XG5cbm1hdC1jYXJkIHtcbiAgZm9udC1zaXplOiBsYXJnZTtcbn0iXX0= */"
 
 /***/ }),
 
